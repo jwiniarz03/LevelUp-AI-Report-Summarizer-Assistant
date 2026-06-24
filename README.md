@@ -20,6 +20,7 @@ Gradio (for UI generation)
 
 ## Configuration (.env)
 At the root of the repository, create a .env file with the following structure. Replace the placeholders with your active Azure credentials:
+```
 # ========================================
 # Azure Computer Vision (OCR processing)
 # ========================================
@@ -33,6 +34,7 @@ AZURE_OPENAI_VERSION="your_openai_version"
 AZURE_OPENAI_ENDPOINT="your_openai_endpoint"
 AZURE_OPENAI_KEY="your_openai_key"
 AZURE_OPENAI_DEPLOYMENT_NAME="your_deployment_name"
+```
 
 
 ## Running the App Locally
